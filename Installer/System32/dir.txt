@@ -1,0 +1,20 @@
+ Volume in drive C is Local Disk
+ Volume Serial Number is 5775-1D2E
+
+ Directory of C:\Server Data\Randem\Develop\VB 6 Redist Files
+
+10/02/2005  11:45 PM    <DIR>          .
+10/02/2005  11:45 PM    <DIR>          ..
+11/27/2002  07:12 AM            74,960 ADVPACK.DLL
+05/08/2002  12:47 AM           147,728 asycfilt.dll
+05/08/2002  12:47 AM            22,288 comcat.dll
+10/02/2005  11:45 PM                 0 dir.txt
+02/23/2004  02:42 PM         1,386,496 msvbvm60.dll
+04/12/2000  07:00 AM           598,288 oleaut32.dll
+05/08/2002  12:47 AM           164,112 olepro32.dll
+05/08/2002  12:47 AM            17,920 stdole2.tlb
+03/10/2004  02:49 PM             1,069 vbrun60.inf
+11/27/2002  07:12 AM             2,272 W95INF16.DLL
+11/27/2002  07:12 AM             4,608 W95INF32.DLL
+              11 File(s)      2,419,741 bytes
+               2 Dir(s)  15,897,010,176 bytes free

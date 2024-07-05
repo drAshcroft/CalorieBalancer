@@ -1,0 +1,14 @@
+<html><BODY>
+      <H1><NOBR>Food Log for <b><% response.write profile("user") %></b></NOBR></H1>
+      <H2>Average Nutrients over the time of log.</H2>
+   
+   <% call response.BarNutrition("User",2) %>
+    
+ <br>
+ This is a quick print out of all your foods over this period
+<br>
+
+ <% call response.makeFoodLog("Last",0) %>
+
+</body></html>
+  

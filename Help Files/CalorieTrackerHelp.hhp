@@ -1,0 +1,29 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=CalorieTrackerHelp.chm
+Contents file=TOC.hhc
+Default Window=Main
+Default topic=NewHTML\Main.htm
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Calorie Tracker Help
+
+[WINDOWS]
+Main="Calorie Tracker  Help","toc.hhc","index.hhk","NewHTML\main.htm",,,,,,0x62521,,0x204e,[0,0,800,600],0x30000,,,,,,0
+
+
+[FILES]
+NewHTML\UserAccounts.htm
+NewHTML\CalorieCounter.htm
+NewHTML\exercise_tracker.htm
+NewHTML\InternetNewFood.htm
+NewHTML\journals_and_reports.htm
+NewHTML\login.htm
+NewHTML\Main.htm
+NewHTML\meal_planner.htm
+NewHTML\NewRecipeMeal.htm
+
+[INFOTYPES]
+

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Welcome to the most powerful calories counter available.">
+		<param name="Local" value="NewHTML/Main.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="User Accounts">
+		<param name="Local" value="NewHTML/UserAccounts.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="The Exercise Tracker">
+		<param name="Local" value="NewHTML/exercise_tracker.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="The Meal Planner">
+		<param name="Local" value="NewHTML/meal_planner.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Calorie Counter">
+		<param name="Local" value="NewHTML/CalorieCounter.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Journals and Reports">
+		<param name="Local" value="NewHTML/journals_and_reports.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Internet Food Search">
+		<param name="Local" value="NewHTML\InternetNewFood.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Adding New Recipes, Foods, and Meals">
+		<param name="Local" value="NewHTML/NewRecipeMeal.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

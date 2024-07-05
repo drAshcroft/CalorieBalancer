@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Progress Report</title>
+<LINK href="../index.css" rel=stylesheet >
+
+</head>
+
+<BODY>
+<h1>Progress Report for <b><% response.write profile("user") %></b></h1>
+<TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%" background=narancscsik.gif>
+      <H1 align=center><FONT color=#ffffff>Progress 
+      Report&nbsp;&nbsp;</FONT></H1></TD></TR></TBODY></TABLE>
+<TABLE width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="15%">&nbsp;&nbsp; </TD>
+    <TD width="80%">
+      <TABLE width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=2>
+            <P align=left>&nbsp;&nbsp;<FONT size=4>&nbsp; Welcome to the 
+            progress report.&nbsp; We will try to understand how your body 
+            reacts to calories, nutrition and macronutrients.&nbsp; Everyones 
+            body is different and ever diet effects people differently.&nbsp; We 
+            have built this report as a tool to help you better understand 
+            yourself and to be able to reach your goals.</FONT></P>
+            <P><FONT size=4>&nbsp;&nbsp;&nbsp;&nbsp; First, and most important 
+            is not how much you weigh, but how much body fat you carrry.&nbsp; 
+            Too much and you are fat, too little and your body will be sick, 
+            lethagic and you mind will stop working.&nbsp; Like everything in 
+            life you have to find your balance.&nbsp; Most health professionals 
+            agree that around 20% body fat is the healthy medium.&nbsp; So this 
+            graph shows how much body fat you have over time.&nbsp; When you 
+            have hit the goal body fat percentage, the graph will show zero 
+            pounds.&nbsp; You can go below zero, but it is actually worse for 
+            your health to be underweight than overweight, so talk to your 
+            doctor</FONT></P>
+            <P align=center><FONT size=4><% call response.timegraph("Body Fat History","% Body Fat","Bfp") %></FONT></P></TD>
+        <TR>
+          <TD><FONT size=4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Now you 
+            want to know what your progress is on total weight. &nbsp; If your 
+            total weight is increasing, but your excess body fat is decreasing 
+            then you a doing well, as your metabolism is getting 
+            stronger.</FONT> </TD></TR>
+        <TR>
+          <TD>
+            <P align=center><FONT size=4><% call response.timegraph("Weight History","Weight (lbs)","Weight") %></FONT></P><BR><FONT 
+          size=4></FONT></TD>
+          <TD width=2></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+
+</BODY>

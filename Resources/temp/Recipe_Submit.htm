@@ -1,0 +1,90 @@
+
+<html>
+<head>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') {
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (val<min || max<val) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+
+<link rel=stylesheet href='../Style Sheets/index.css'>
+
+</head>
+<body >
+<p align="center"><b><font face="arial" size="3">Submit a Recipe</font></b>
+
+<form method="post" action="http://www.caloriebalancediet.com/Recipes/RecipeValidate.asp" name="form1">
+  <table align="center">
+    <tr valign="baseline"> 
+      <td nowrap align="right">
+      <b><font size="2" face="Geneva, Arial, Helvetica, san-serif">Author/Poster:</font></b></td>
+      <td>
+      <input type="text" name="Poster" size="20"><br>
+      <input type="text" name="PrepTime" size="20"><input type="hidden" value="admin" size="20" name="Author">      </td>
+    </tr>
+    
+    <tr valign="baseline"> 
+      <td><font size="2" face="Geneva, Arial, Helvetica, san-serif"><b>Recipe Categories:</font></b></td>
+      <td> 
+        
+        Ethnic: <input type="text" name="Ethnic" size="20"> Main Ingredient: <input type="text" name="MainIngred" size="20"><br>
+Dish: <input type="text" name="Dish" size="20"> Diet: <input type="text" name="Diet" size="20">
+
+        
+      </td>
+    </tr>
+    <tr valign="baseline"> 
+      <td nowrap align="right"><b><font size="2" face="Geneva, Arial, Helvetica, san-serif">Recipe Name:</font></b></td>
+      <td> 
+       <input type="text" name="Name" value="" size="50">
+       <br>
+       <input type="text" name="NumberOfServings" size="20">
+      </td>
+    </tr>
+    <tr> 
+      <td nowrap align="right" valign="top"><b><font size="2" face="Geneva, Arial, Helvetica, san-serif">Ingredients:</font></b></td>
+      <td valign="baseline"> 
+        <textarea name="Ingredients" cols="50" rows="12"></textarea>
+      </td>
+    </tr>
+    <tr> 
+      <td nowrap align="right" valign="top"><b><font size="2" face="Geneva, Arial, Helvetica, san-serif">Instructions:</font></b></td>
+      <td valign="baseline"> 
+        <textarea name="Instructions" cols="50" rows="12"></textarea>
+      </td>
+    </tr>
+   
+    <tr valign="baseline"> 
+      <td nowrap align="right"><b>Nutrients&nbsp;</b></td>
+      <td> 
+        <textarea rows="7" name="Nutrients" cols="50"></textarea><br>
+        
+      </td>
+    </tr>
+  </table>
+ 
+</form>
+</body>
+</html>

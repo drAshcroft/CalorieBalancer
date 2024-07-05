@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Summary</title>
+</head>
+<SCRIPT language="JavaScript">
+<!--
+//window.onerror = errorHandler;
+//function errorHandler(msg,url,lno)
+//{ return (true); }
+function AdjustPPW()
+{
+var c=Test.profile_calories.value*1;
+var b=Test.profile_bmr.value*1;
+var cp=Test.profile_calpound.value*1;
+//alert (c+b+cp);
+var ppw=Math.round((c-b)*7/(cp)*10)/10;
+// alert(ppw);
+Test.profile_weightlossrate.value=ppw;
+if (ppw<0)
+{  document.getElementById("ppw").innerHTML = "You can expect to lose " + ppw + " pounds per week." }
+else
+{ if (ppw=0)
+{ document.getElementById("ppw").innerHTML = "You can expect to maintain your weight." }
+else
+{ document.getElementById("ppw").innerHTML = "You can expect to gain " + ppw + " pounds per week." }
+}
+//var msg2=(msg +  ppw  + " pounds lost per week.");
+//document.getElementById("ppw").innerHTML=msg2;
+return (true);
+}
+//-->
+</SCRIPT>
+<body>
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td background="GreenBar.gif">
+<h1 align="center">Body Summary</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<form name=Test action="done.htm">
+<p><font size="4">&nbsp;&nbsp;&nbsp;
+Here is a summary of your profile and all the calculated values.
+&nbsp;If you see any changes that should be made, please feel free
+to change these numbers. Otherwise just click the save button. </font></p>
+<center><input value="Save" name="B1" type="submit"></center>
+<!--<p><h2><a href="Personal Info.htm">I prefer to edit the profile with the wizard</a></h2></p>-->
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">User Name:</td>
+<td style="width: 506px;"><input name="profile_user" value=
+"ochensati" type="text"></td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Birthdate:</td>
+<td style="width: 506px;"><input name="profile_birthdate" value=
+"7/4/1975" type="text">
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Sex:</td>
+<td style="width: 506px;"><input name="profile_sex" value=
+"Male" type="text">
+</td>
+</tr>
+<tr>
+<td></td>
+<td><h3>Metabolism Information</h3></td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Body Mass Index (BMI)</td>
+<td style="width: 506px;"><input name="profile_bmi" value=
+"28.2" type="text">
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Body Fat Percentage (BFP)</td>
+<td style="width: 506px;"><input name="profile_bfp" value=
+"18.4" type="text">
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Basal Metabolic Rate (BMR in calories)</td>
+<td style="width: 506px;"><input  onkeyup="AdjustPPW()" name="profile_bmr" value=
+"2501.6" type="text">
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Calories per Pound (calories/pound, this usually does not change from person to person)</td>
+<td style="width: 506px;"><input  onkeyup="AdjustPPW()" name="profile_calpound" value=
+"3500" type="text">
+</td>
+</tr>
+<tr>
+<td></td>
+<td><h3>Body Informaion</h3></td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Weight(lbs.):</td>
+<td style="width: 506px;"><input name="profile_weight" value=
+"220" type="text">
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Height(inches):</td>
+<td style="width: 506px;"><input name="profile_height" value=
+"74" height type="text">
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Ideal Weight(lbs.):</td>
+<td style="width: 506px;"><input name="profile_idealweight" value=
+"0" type="text">
+</td>
+</tr>
+<tr>
+<td></td>
+<td><h3>Daily information</h3></td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;">Daily Calorie Rations</td>
+<td style="width: 506px;">
+<input name="profile_calories"
+value=
+"2502"
+type="text"
+onkeyup="AdjustPPW()"
+>
+		   <nobr>
+<input type="hidden" name="profile_weightlossrate" value=
+0 > <a href="bmr.htm" target="_blank">Why is this so low?</a></nobr><br>
+<div id="ppw">
+This calorie level will result in 
+0 pounds lost per week.
+</div>
+</td>
+</tr>
+<tr>
+<td style="width: 152px;"></td>
+<td style="width: 262px;" colspan=2><b>Percent of Calories from each nutrient in diet</b> </td>
+</tr>
+<tr>
+<td></td>
+<td style="width: 262px;">% Fat</td>
+<td style="width: 506px;"><input name="profile_fat" value=
+"25" type="text">
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="width: 262px;">% Protein</td>
+<td style="width: 506px;"><input name="profile_protein" value=
+"25" type="text">
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="width: 262px;">% Sugar</td>
+<td style="width: 506px;"><input name="profile_sugar" value=
+"20" type="text">
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="width: 262px;">% Carbs (not including
+sugar)</td>
+<td style="width: 506px;"><input name="profile_carbs" value=
+"30" type="text">
+</td>
+</tr>
+</tbody>
+</table>
+<p><font size="4">
+<table width=100% ><tr><td width=100%  ><img src="narancscsik.gif" height="10px" width="100%" ></td></tr></table>
+&nbsp;&nbsp;&nbsp; The
+calorie calculator can watch 33 different nutrients to help you be
+healthy. &nbsp;You can choose 5 nutrients that are most important to your goals from the list below.  Calories, fat, sugar, protein, and fiber are selected as default</font></p>
+<center>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<table border=0><tr><td><input type="checkbox" checked name="profile_otherwatches" value="Calcium">Calcium  </td><td><input type="checkbox" checked name="profile_otherwatches" value="Iron">Iron  </td><td><input type="checkbox"  name="profile_otherwatches" value="Magnesium">Magnesium  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Phosphorus">Phosphorus  </td><td><input type="checkbox"  name="profile_otherwatches" value="Potassium">Potassium  </td><td><input type="checkbox" checked name="profile_otherwatches" value="Sodium">Sodium  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Zinc">Zinc  </td><td><input type="checkbox"  name="profile_otherwatches" value="Copper">Copper  </td><td><input type="checkbox"  name="profile_otherwatches" value="Manganese">Manganese  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Selenium">Selenium  </td><td><input type="checkbox" checked name="profile_otherwatches" value="Vitamin C">Vitamin C  </td><td><input type="checkbox"  name="profile_otherwatches" value="Thiamin">Thiamin  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Riboflavin">Riboflavin  </td><td><input type="checkbox"  name="profile_otherwatches" value="Niacin">Niacin  </td><td><input type="checkbox"  name="profile_otherwatches" value="Pantothenic acid">Pantothenic acid  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Vitamin B6">Vitamin B6  </td><td><input type="checkbox"  name="profile_otherwatches" value="Folate">Folate  </td><td><input type="checkbox"  name="profile_otherwatches" value="Vitamin B12">Vitamin B12  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Vitamin A">Vitamin A  </td><td><input type="checkbox"  name="profile_otherwatches" value="Retinol">Retinol  </td><td><input type="checkbox"  name="profile_otherwatches" value="Vitamin E">Vitamin E  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Vitamin K">Vitamin K  </td><td><input type="checkbox"  name="profile_otherwatches" value="Alpha-carotene">Alpha-carotene  </td><td><input type="checkbox"  name="profile_otherwatches" value="Beta-carotene">Beta-carotene  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Saturated Fat">Saturated Fat  </td><td><input type="checkbox"  name="profile_otherwatches" value="Monounsaturated fat">Monounsaturated fat  </td><td><input type="checkbox"  name="profile_otherwatches" value="Polyunsaturated fat">Polyunsaturated fat  </td></tr><tr><td><input type="checkbox" checked name="profile_otherwatches" value="Cholesterol">Cholesterol  </td><td><input type="checkbox"  name="profile_otherwatches" value="FoodGroup">FoodGroup  </td><td><input type="checkbox"  name="profile_otherwatches" value="Trans fat">Trans fat  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Fructose">Fructose  </td><td><input type="checkbox"  name="profile_otherwatches" value="Folic Acid">Folic Acid  </td><td><input type="checkbox"  name="profile_otherwatches" value="Vitamin D">Vitamin D  </td></tr><tr><td><input type="checkbox"  name="profile_otherwatches" value="Starch">Starch  </td></tr></table>
+</tbody>
+</table>
+</center>
+<table width=100% ><tr><td width=100%  ><img src="narancscsik.gif" height="10px" width="100%" ></td></tr></table>
+<p>The program has calculated the ideal amount for all these
+nutrients. &nbsp;If you need to change these values for special
+diets (i.e. low sodium diets)</p>
+<p></p>
+<center>
+<table border="0" cellpadding="2" cellspacing="2">
+<tbody>
+
+<tr>
+<td >
+Calcium</td>
+<td ><input type=text value=
+"1200" name="ideals_
+Calcium" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Iron</td>
+<td ><input type=text value=
+"14" name="ideals_
+Iron" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Magnesium</td>
+<td ><input type=text value=
+"405" name="ideals_
+Magnesium" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Phosphorus</td>
+<td ><input type=text value=
+"1200" name="ideals_
+Phosphorus" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Potassium</td>
+<td ><input type=text value=
+"2000" name="ideals_
+Potassium" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Sodium</td>
+<td ><input type=text value=
+"2400" name="ideals_
+Sodium" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Zinc</td>
+<td ><input type=text value=
+"15" name="ideals_
+Zinc" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Copper</td>
+<td ><input type=text value=
+"2" name="ideals_
+Copper" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Manganese</td>
+<td ><input type=text value=
+"2.5" name="ideals_
+Manganese" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Selenium</td>
+<td ><input type=text value=
+"50" name="ideals_
+Selenium" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin C</td>
+<td ><input type=text value=
+"100" name="ideals_
+Vitamin C" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Thiamin</td>
+<td ><input type=text value=
+"1.5" name="ideals_
+Thiamin" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Riboflavin</td>
+<td ><input type=text value=
+"1.8" name="ideals_
+Riboflavin" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Niacin</td>
+<td ><input type=text value=
+"20" name="ideals_
+Niacin" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Pantothenic acid</td>
+<td ><input type=text value=
+"5" name="ideals_
+Pantothenic acid" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin B6</td>
+<td ><input type=text value=
+"2" name="ideals_
+Vitamin B6" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Folate</td>
+<td ><input type=text value=
+"300" name="ideals_
+Folate" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin B12</td>
+<td ><input type=text value=
+"2.5" name="ideals_
+Vitamin B12" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin A</td>
+<td ><input type=text value=
+"2500" name="ideals_
+Vitamin A" ></td>
+<td> 
+IU </td>
+</tr>
+
+<tr>
+<td >
+Retinol</td>
+<td ><input type=text value=
+"800" name="ideals_
+Retinol" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin E</td>
+<td ><input type=text value=
+"15" name="ideals_
+Vitamin E" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin K</td>
+<td ><input type=text value=
+"125" name="ideals_
+Vitamin K" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Alpha-carotene</td>
+<td ><input type=text value=
+"1000" name="ideals_
+Alpha-carotene" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Beta-carotene</td>
+<td ><input type=text value=
+"2000" name="ideals_
+Beta-carotene" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Saturated Fat</td>
+<td ><input type=text value=
+"20" name="ideals_
+Saturated Fat" ></td>
+<td> 
+g </td>
+</tr>
+
+<tr>
+<td >
+Monounsaturated fat</td>
+<td ><input type=text value=
+"47" name="ideals_
+Monounsaturated fat" ></td>
+<td> 
+g </td>
+</tr>
+
+<tr>
+<td >
+Polyunsaturated fat</td>
+<td ><input type=text value=
+"47" name="ideals_
+Polyunsaturated fat" ></td>
+<td> 
+g </td>
+</tr>
+
+<tr>
+<td >
+Cholesterol</td>
+<td ><input type=text value=
+"300" name="ideals_
+Cholesterol" ></td>
+<td> 
+mg </td>
+</tr>
+
+<tr>
+<td >
+Trans fat</td>
+<td ><input type=text value=
+"2" name="ideals_
+Trans fat" ></td>
+<td> 
+g </td>
+</tr>
+
+<tr>
+<td >
+Fructose</td>
+<td ><input type=text value=
+"2" name="ideals_
+Fructose" ></td>
+<td> 
+ </td>
+</tr>
+
+<tr>
+<td >
+Folic Acid</td>
+<td ><input type=text value=
+"300" name="ideals_
+Folic Acid" ></td>
+<td> 
+mcg </td>
+</tr>
+
+<tr>
+<td >
+Vitamin D</td>
+<td ><input type=text value=
+"200" name="ideals_
+Vitamin D" ></td>
+<td> 
+ </td>
+</tr>
+
+<tr>
+<td >
+Starch</td>
+<td ><input type=text value=
+"200" name="ideals_
+Starch" ></td>
+<td> 
+ </td>
+</tr>
+
+</tbody>
+</table>
+</center>
+<p></p>
+<p align="center"> <input name="goweb" value="true" type="hidden">
+<table border="0">
+<tbody>
+<tr>
+<td align="center" valign="top"> <input value="Save" name="B1" type="submit"></td>
+<td align="center" valign="top"> </td>
+</tr>
+</tbody>
+</table>
+</p>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,255 @@
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I enter my foods?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#EnterFoods">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="I want to enter foods for a different day.">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#DifferentDay">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="I want to review the last time I entered food.">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#ReviewLastFood">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I enter my meal?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#EnterMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="Why does the program change the order of the meals?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#OrderMeals">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="I want to enter two snacks/treats.">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#ManySnacks">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="What is the difference between and normal meal and a family meal?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#FamilyMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I create family meals?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#NewFamilyMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I delete a row?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#DeleteRow">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I enter a food that is not in the database?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#NewFood">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How can I enter a recipe?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#NewRecipe">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I edit a Food?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#EditFood">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="Change from calories to percents?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#Calories2Percents">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="Change the nutrients that are shown with each food?">
+         <param name="Name" value="Calorie Counter">
+         <param name="Local" value="NewHTML/CalorieCounter.htm#WatchNutrients">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I log my weight?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#LogWeight">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I log my body fat percentage?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#LogBFP">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I log my energy, hunger and stress?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#LogHunger">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="I want to record other diet items? (weight lifting, strength, soreness...)">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#LogOtherJournal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I record my diet experiences?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#LogExperience">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I see a record of my weight progress?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#RecWeight">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How can I get a log of my foods eaten?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#RecFoodLog">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="Can I see today's nutrition information?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#RecTodaysNutrition">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="What is my metabolism?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#RecMetabolism">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="What macronutrient (Protein, Fat, Sugar, Carbs, Fiber) helps me diet?">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#RecNutrient">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="I want a custom Report.">
+         <param name="Name" value="Journals and Reports">
+         <param name="Local" value="NewHTML/journals_and_reports.htm#RecCustom">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I get to the meal planner?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#NavigateMeals">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I make new meals?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#NewMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I edit existing meals?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#EditMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I delete a meal?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#ViewMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I move a meal?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#MoveMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I remove a meal from the planner?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#RemoveMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I copy/paste meals?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#CopyMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I download a plan?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#DownloadPlan">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I print a plan?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#RunPlan">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I print a shopping list for the plan?">
+         <param name="Name" value="The Meal Planner">
+         <param name="Local" value="NewHTML/meal_planner.htm#ShoppingList">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I enter a new food?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#NewFood">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I enter a new recipe?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#NewRecipe">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I enter a new meal?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#NewMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I upload a recipe?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#UploadRecipe">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I download a recipe?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#DownloadRecipe">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I delete a food?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#DeleteFood">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I delete a meal?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#DeleteMeal">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I delete a recipe?">
+         <param name="Name" value="Adding Foods/Recipes/Meals">
+         <param name="Local" value="NewHTML/NewRecipeMeal.htm#DeleteRecipe">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How to I log in?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#Login">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I make a new user?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#NewUser">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I  edit my account?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#EditAccount">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I change my daily calories?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#changedailycalories">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I delete an account?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#deleteaccount">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do I change the nutrients that I track every day?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#ChangeNutrients">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="How do change to a different user?">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#DifferentUser">
+     </OBJECT>
+<LI> <OBJECT type="Text/sitemap">
+         <param name="Name" value="What if I want my meals to be available to all users.">
+         <param name="Name" value="User Accounts">
+         <param name="Local" value="NewHTML/UserAccounts.htm#FamilyMeal">
+     </OBJECT>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Main Page">
+		<param name="Local" value="HTML\Main.htm">
+		<param name="ImageNumber" value="2">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How To Lose Weight">
+			<param name="Local" value="HTML\how_to_lose_weight.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Quick Start">
+			<param name="Local" value="HTML\quick_start.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Program Sections">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Calorie Tracker">
+			<param name="Local" value="HTML\Calorie_tracker.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Exercise Calculator">
+			<param name="Local" value="HTML\exercise_tracker.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Daily Journal">
+			<param name="Local" value="HTML\journal.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Meal Planner">
+			<param name="Local" value="HTML\meal_planner.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Meal Editor">
+			<param name="Local" value="HTML\Meal_Instructions.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FAQ">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How do I enter a food for the day?">
+			<param name="Local" value="HTML\Calorie_tracker.htm#EnterFood">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How do I enter a food that is not in the database?">
+			<param name="Local" value="HTML\Calorie_tracker.htm#NewFood">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How can I enter a recipe?">
+			<param name="Local" value="HTML\Calorie_tracker.htm#NewRecipe">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How Do I Edit a Food?">
+			<param name="Local" value="HTML\Calorie_tracker.htm#EditFood">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

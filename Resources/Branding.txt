@@ -1,0 +1,10 @@
+Caption == Calorie Balance Diet
+BaseWebsite == http://www.caloriebalancediet.com/main_page.asp
+LoginWebsite == http://www.caloriebalancediet.com/checklogin.asp?member=1&username=#Uname#&password=#Upassword#
+PlanWebsite == http://www.caloriebalancediet.com/Plans/default.asp
+RecipeWebsite == http://www.caloriebalancediet.com/recipes/default.asp
+SupportAddress == mailto:support@caloriebalancediet.com
+CalorieCounter == http://www.caloriebalancediet.com/calculator.asp
+DefaultSearch == http://www.yahoo.com
+paypage == http://www.caloriebalancediet.com/programpay29.asp
+openonwebsite == false

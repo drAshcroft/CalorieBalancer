@@ -1,0 +1,422 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+</head>
+
+<body>
+<form method="POST" name ="theGenerals" >
+
+<h2>Food Group</h2>
+
+  <select size="7" name="FoodGroup">
+  <option value="0100">Dairy Products</option>
+  <option >--------</option>
+
+  <option value="0400">Fats and Oils</option>
+  <option >--------</option>
+
+  <option value="0000">Egg Products</option>
+  <option value="0500">Poultry Products</option>
+  <option value="0700">Sausages and Luncheon Meats</option>
+  <option value="1000">Pork Products</option>
+  <option value="1200">Nut and Seed Products</option>
+  <option value="1300">Beef Products</option>
+  <option value="1500">Finfish and Shellfish Products</option>
+  <option value="1600">Legumes(Beans) and Legume Products</option>
+  <option value="1700">Lamb, Veal, and Game Products</option>
+<option >--------</option>
+
+  <option value="1100">Vegetables and Vegetable Products</option>
+  <option value="0900">Fruits and Fruit Juices</option>
+<option >--------</option>
+
+  <option value="0800">Breakfast Cereals</option>
+  <option value="1800">Baked Products</option>
+  <option value="2000">Cereals, Grains, and Pasta Products </option>
+<option >--------</option>
+  
+  <option value="2100">Fast Foods</option>
+  <option value="2200">Meals, Entrees, and Sidedishes</option>
+  <option value="1400">Beverages</option>  
+  <option value="0600">Soups, Sauces, and Gravies</option>
+  <option value="2500">Snacks</option>
+  <option value="1900">Sweets</option>
+  <option >--------</option>
+
+  <option value="0200">Spices and Herbs</option>
+  <option value="3500">Ethnic Foods</option>
+  <option value="0300">Baby Foods</option>
+  
+  </select><br>
+
+<hr size="4" color="#000080">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#33CC33">
+  <tr>
+    <td width="25%">&nbsp;</td>
+    <td width="25%">
+      <h3>Amount</h3>
+    </td>
+    <td width="25%">
+      <h3>Unit</h3>
+    </td>
+    <td width="25%">
+      <h3>Grams</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%">Serving Size</td>
+    <td width="25%"><input type="text" name="amount" size="20"></td>
+    <td width="25%"><input type="text" name="unit" size="20"></td>
+    <td width="25%"><input type="text" name="grams" size="20"></td>
+  </tr>
+</table>
+</form>
+<form name ="Nutrients">
+<hr size="4" color="#000080">
+<h2>
+Nutrition per Serving
+</h2>
+<table border="0" width="75%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+
+  <tr  style="border-bottom-style: solid">
+    <td width="48%">
+      <h3>Nutrient</h3>
+    </td>
+    <td width="18%">
+      <h3>Amount</h3>
+    </td>
+    <td width="20%">
+      <h3>Unit</h3>
+    </td>
+    <td width="37%">
+      <h3>% Daily Value</h3>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Calories</b></td>
+    <td width="18%"><input type="text" name="Calories" size="20"
+          onchange ="document.getElementById('DCalories').innerText
+          =Math.round(this.value/2000*100*10)/10 + '%'"></td>
+    <td width="20%">KCals</td>
+    <td width="37%" align="center"><div id="DCalories"></div></td>
+  </tr>
+
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Total Fat</b></td>
+    <td width="18%"><input type="text" name="Fat" size="20"
+          onchange ="document.getElementById('DFat').innerText
+          =Math.round(this.value/65*100*10)/10 + '%'"></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DFat"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid">&nbsp;&nbsp; Saturated Fat</td>
+    <td width="18%"><input type="text" name="Saturated_Fat" size="20"
+          onchange ="document.getElementById('DSaturated').innerText
+          =Math.round(this.value/20*100*10)/10 + '%'"></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DSaturated"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid">&nbsp;&nbsp; Monounsaturated Fat</td>
+    <td width="18%"><input type="text" name="Monounsaturated_fat" size="20"
+          onchange ="document.getElementById('Dmonounsaturated').innerText
+          =Math.round(this.value/47*100*10)/10 + '%'"          ></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="Dmonounsaturated"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid">&nbsp;&nbsp; Polyunsaturated Fat</td>
+    <td width="18%"><input type="text" name="polyunsaturated_fat" size="20"
+          onchange ="document.getElementById('DPolyunsaturated').innerText
+          =Math.round(this.value/47*100*10)/10 + '%'"          ></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DPolyunsaturated"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Cholesterol</b></td>
+    <td width="18%"><input type="text" name="Cholesterol" size="20"
+          onchange ="document.getElementById('DCholesterol').innerText
+          =Math.round(this.value/250*100*10)/10 + '%'"></td>
+    <td width="20%">mg</td>
+    <td width="37%" align="center"><div id="DCholesterol"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Sodium</b></td>
+    <td width="18%"><input type="text" name="Sodium" size="20"
+          onchange ="document.getElementById('DSodium').innerText
+          =Math.round(this.value/2400*100*10)/10 + '%'"></td>
+    <td width="20%">mg</td>
+    <td width="37%" align="center"><div id="DSodium"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Potassium</b></td>
+    <td width="18%"><input type="text" name="potassium" size="20"
+          onchange ="document.getElementById('DPotassium').innerText
+          =Math.round(this.value/2000*100*10)/10 + '%'"></td>
+    <td width="20%">mg</td>
+    <td width="37%" align="center"><div id="DPotassium"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Total Carbohydrates</b></td>
+    <td width="18%"><input type="text" name="carbohydrate" size="20"
+          onchange ="document.getElementById('DCarbohydrates').innerText
+          =Math.round(this.value/300*100*10)/10 + '%'"></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DCarbohydrates"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid">&nbsp;&nbsp; Dietary Fiber</td>
+    <td width="18%"><input type="text" name="Fiber" size="20"
+          onchange ="document.getElementById('DFiber').innerText
+          =Math.round(this.value/25*100*10)/10 + '%'"></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DFiber"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid">&nbsp;&nbsp; Sugar</td>
+    <td width="18%"><input type="text" name="sugar" size="20"
+          onchange ="document.getElementById('DSugar').innerText
+          =Math.round(this.value/100*100*10)/10 + '%'"></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DSugar"></div></td>
+  </tr>
+  <tr>
+    <td width="48%" style="border-bottom-style: solid"><b>Protein</b></td>
+    <td width="18%"><input type="text" name="protein" size="20"
+          onchange ="document.getElementById('DProtein').innerText
+          =Math.round(this.value/50*100*10)/10 + '%'"></td>
+    <td width="20%">g</td>
+    <td width="37%" align="center"><div id="DProtein"></div></td>
+  </tr>
+  
+</table>
+<hr size="4" color="#000080">
+Enter in the percent of daily value of each vitamin in a 2000 calorie diet that you can identify.  This information is usually on the
+side of the packaging.
+<table border="0" width="74%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="33%">
+      <h3>Nutrient Name</h3>
+    </td>
+    <td width="20%">
+      <h3>Amount</h3>
+    </td>
+    <td width="47%">
+      <h3>% Daily Value</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Vitamin A</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GVitA"></div></td>
+    <td width="47%"><input type="text" name="vitamin_a" size="20"
+    onchange ="document.getElementById('GVitA').innerText
+          =Math.round(this.value/100*5000*10)/10 + ' IU '"
+    ></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Vitamin C</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GVitC"></div></td>
+    <td width="47%"><input type="text" name="vitamin_c" size="20"
+    onchange ="document.getElementById('GVitC').innerText
+          =Math.round(this.value/100*45*10)/10 + ' mg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Calcium</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GCalcium"></div></td>
+    <td width="47%"><input type="text" name="calcium" size="20"
+    onchange ="document.getElementById('GCalcium').innerText
+          =Math.round(this.value/100*1200*10)/10 + ' mg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Iron</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GIron"></div></td>
+    <td width="47%"><input type="text" name="iron" size="20"
+    onchange ="document.getElementById('GIron').innerText
+          =Math.round(this.value/100*14*10)/10 + ' mg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Retinol</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GRetinol"></div></td>
+    <td width="47%"><input type="text" name="retinol" size="20"
+    onchange ="document.getElementById('GRetinol').innerText
+          =Math.round(this.value/100*800*10)/10 + ' mcg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Vitamin E</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GVitE"></div></td>
+    <td width="47%"><input type="text" name="vitamin_e" size="20"
+    onchange ="document.getElementById('GVitE').innerText
+          =Math.round(this.value/100*15*10)/10 + ' mcg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Vitamin K</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GVitK"></div></td>
+    <td width="47%"><input type="text" name="vitamin_K" size="20"
+    onchange ="document.getElementById('GVitK').innerText
+          =Math.round(this.value/100*65*10)/10 + ' mcg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Thiamin</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GThiamin"></div></td>
+    <td width="47%"><input type="text" name="thiamin" size="20"
+    onchange ="document.getElementById('GThiamin').innerText
+          =Math.round(this.value/100*1.5*10)/10 + ' mg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Riboflavin</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GRiboflavin"></div></td>
+    <td width="47%"><input type="text" name="riboflavin" size="20"
+    onchange ="document.getElementById('GRiboflavin').innerText
+          =Math.round(this.value/100*1.8*10)/10 + ' mg '"
+></td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Vitamin B6</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GVitB6"></div></td>
+    <td width="47%"><input type="text" name="vitamin_b6" size="20"
+    onchange ="document.getElementById('GVitB6').innerText
+          =Math.round(this.value/100*2*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Folate</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GFolate"></div></td>
+    <td width="47%"><input type="text" name="folate" size="20"
+    onchange ="document.getElementById('GFolate').innerText
+          =Math.round(this.value/100*300*10)/10 + ' mcg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Folic Acid</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GFolicAcid"></div></td>
+    <td width="47%"><input type="text" name="folic_acid" size="20"
+    onchange ="document.getElementById('GFolicAcid').innerText
+          =Math.round(this.value/100*300*10)/10 + ' mcg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Vitamin B12</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GVitB12"></div></td>
+    <td width="47%"><input type="text" name="vitamin_b12" size="20"
+    onchange ="document.getElementById('GVitB12').innerText
+          =Math.round(this.value/100*2.5*10)/10 + ' mcg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Niacin</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GNiacin"></div></td>
+    <td width="47%"><input type="text" name="niacin" size="20"
+    onchange ="document.getElementById('GNiacin').innerText
+          =Math.round(this.value/100*20*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Pantothenic Acid</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GPantothenic"></div></td>
+    <td width="47%"><input type="text" name="pantothenic_acid" size="20"
+    onchange ="document.getElementById('GPantothenic').innerText
+          =Math.round(this.value/100*5*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Alpha-Carotene</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GACarot"></div></td>
+    <td width="47%"><input type="text" name="alpha__carotene" size="20"
+    onchange ="document.getElementById('GACarot').innerText
+          =Math.round(this.value/100*1000*10)/10 + ' mcg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Beta-Carotene</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GBCarot"></div></td>
+    <td width="47%"><input type="text" name="beta__carotene" size="20"
+    onchange ="document.getElementById('GBCarot').innerText
+          =Math.round(this.value/100*2000*10)/10 + ' mcg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Magnesium</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GMag"></div></td>
+    <td width="47%"><input type="text" name="magnesium" size="20"
+    onchange ="document.getElementById('GMag').innerText
+          =Math.round(this.value/100*405*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Phosphorus</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GPhos"></div></td>
+    <td width="47%"><input type="text" name="phosphorus" size="20"
+    onchange ="document.getElementById('GPhos').innerText
+          =Math.round(this.value/100*1200*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Zinc</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GZinc"></div></td>
+    <td width="47%"><input type="text" name="zinc" size="20"
+    onchange ="document.getElementById('GZinc').innerText
+          =Math.round(this.value/100*15*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Copper</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GCopper"></div></td>
+    <td width="47%"><input type="text" name="copper" size="20"
+    onchange ="document.getElementById('GCopper').innerText
+          =Math.round(this.value/100*2*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Manganese</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GMang"></div></td>
+    <td width="47%"><input type="text" name="manganese" size="20"
+    onchange ="document.getElementById('GMang').innerText
+          =Math.round(this.value/100*2.5*10)/10 + ' mg '"
+></td>
+  </tr>
+
+  <tr>
+    <td width="33%" style="border-bottom-style: solid">Selenium</td>
+    <td width="20%" style="border-bottom-style: solid"><div id="GSel"></div></td>
+    <td width="47%"><input type="text" name="selenium" size="20"
+    onchange ="document.getElementById('GSel').innerText
+          =Math.round(this.value/100*50*10)/10 + ' mcg '"
+></td>
+  </tr>
+
+
+
+</table>
+</form>
+
+</body>
+
+</html>

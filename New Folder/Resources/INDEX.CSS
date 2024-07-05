@@ -1,0 +1,28 @@
+BODY
+{
+    BACKGROUND-COLOR: white
+}
+.LightCol
+{
+    BACKGROUND-COLOR: floralwhite
+}
+.DarkCol
+{
+    BACKGROUND-COLOR: aliceblue
+}
+.Title
+{
+    BACKGROUND-IMAGE: url(../images/forum_header_bg.gif)
+}
+.TableBack
+{
+    BACKGROUND-COLOR: lavender
+}
+.WhiteCol
+{
+    FONT-SIZE: x-small;
+    TEXT-TRANSFORM: capitalize;
+    LINE-HEIGHT: normal;
+    BACKGROUND-COLOR: white;
+    FONT-VARIANT: normal
+}
